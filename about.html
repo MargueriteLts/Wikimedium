@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title></title>
+    <style media="screen">
+      body {
+        width: 1440;
+        height: 100%;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        background: white;
+      }
+      body::before {
+        content: '';
+        background: url('images/1440.jpg');
+        opacity: .2;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+      }
+      html {
+        background: #bbb;
+        height: 3253px;
+        position: relative;
+      }
+      section{
+        display: flex;
+        justify-content: space-between;
+        align-items:
+      }
+      section div {
+        overflow: hidden;
+        width: 50%;
+      }
+      section h1, .bottom_block {
+        font-size: 38px; line-height: 45px;
+        margin-top: 130px;
+        margin-left: 120px;
+      }
+      section p, .bottom_block {
+
+      }
+      section img {
+        margin-top: 100px;
+        margin-left: 50px;
+      }
+      .bottom_block {
+        text-align: center;
+        padding-top: 100px;
+      }
+      .bottom_block p {
+        width: 510px;
+        margin-left: 0 auto;
+      }
+      .btn {
+        text-decoration: none;
+        border: 1px solid #bbb;
+        padding: 15px 30px;
+        background: white;
+        display: inline-block;
+        border-radius: 6px;
+        margin: 40px 5px 0;
+      }
+      .btn-black {
+        color: white;
+        background: black;
+        border-color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="menubar">
+      <a href="index.html"><img src="images/logo.svg" alt=""></a>
+      <a href="about.html">О проекте</a>
+    </div>
+    <section>
+      <div>
+        <h1> Наглядный пример,чтобы учиться веб-вёрстке</h1>
+        <p>Разработан для изучения основ веб-вёрстки, языка гипертекстовой разметки HTML и каскадных таблиц стилей CSS</p>
+      </div>
+    <div>
+      <img src="images/about1.png" alt="">
+    </div>
+  </section>
+  <section>
+
+  </section>
+  <div class="bottom_block">
+    <h1> Наглядный пример,</h1>
+    <p>Возможность</p>
+    <a class="btn" href="#">Исходный</a>
+    <a class="btn btn-black" href="#">Курс</a>
+  </div>
+
+  </body>
+</html>

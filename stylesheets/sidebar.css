@@ -1,6 +1,6 @@
 nav {
   width: 500px;
-  background: white;
+  /* background: white; */
   display: block;
   position: fixed;
   top: 20px;
@@ -26,6 +26,7 @@ nav li {
   margin: 10px 0;
 }
 nav ul > ul {
+  /* DECALAGE */
   color: #777;
 }
 nav p {

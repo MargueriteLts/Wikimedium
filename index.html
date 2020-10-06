@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="stylesheets/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet"> -->
     <script src="javascripts/jquery-3.5.1.js" charset="utf-8"></script>
     <title>Статья Дом Наркомфина</title>
     <script type="text/javascript">
@@ -12,7 +12,7 @@
 		    $(this).on('click', function(e) {
 			    e.preventDefault();
 			    var scrollTo = $(this).attr('href');
-			    var whitespace = scrollTo == '#s1' ? 70 : 30;
+			    var whitespace = scrollTo == '#s1' ? 150 : 30;
 			    $('html,body').animate({
 				    scrollTop: $(scrollTo).offset().top - whitespace
 			    }, 1000);
@@ -24,8 +24,8 @@
 
   <body>
     <div class="menubar">
-      <a href="#"><img src="images/logo.svg" alt=""></a>
-      <a href="#">О проекте</a>
+      <a href="index.html"><img src="images/logo.svg" alt=""></a>
+      <a href="about.html">О проекте</a>
     </div>
     <nav class="sidebar">
       <p><a href="#s1">Дом Наркомфина</a></p>
@@ -87,7 +87,7 @@
       <p><strong>Дом Наркомфина</strong> — один из ключевых памятников жилой архитектуры <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D0%B8%D0%B2%D0%B8%D0%B7%D0%BC_(%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE)">конструктивизма</a>, «опытный дом переходного типа». Построен в 1928—1930 годах по проекту архитекторов Моисея Гинзбурга, Игнатия Милиниса и инженера Сергея Прохорова для работников Народного комиссариата финансов СССР (Наркомфина). Находится в Москве по адресу: Новинский бульвар, дом 25, корпус 1.</p>
       <p>Долгое время находился в аварийном состоянии, был трижды включен в список «100 главных зданий мира, которым грозит уничтожение». В 2017 году началась реставрация по проекту мастерской Алексея Гинзбурга, внука М. Я. Гинзбурга.</p>
 
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Dom_Narkomfin_under_renovation.jpg/450px-Dom_Narkomfin_under_renovation.jpg" alt="Дом Наркомфина">
+      <img src="images/narkomfin.jpg" alt="">
 
       <!-- <p><strong>Содегжание</strong></p>
       <ol>

@@ -27,3 +27,6 @@ nav li {
 nav ul > ul {
   color: #777;
 }
+nav p {
+  font-size: bold;
+}

@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="stylesheets/style.css">
     <!-- <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet"> -->
     <script src="javascripts/jquery-3.5.1.js" charset="utf-8"></script>
+    <link rel="icon" type="image/x-icon" href="http://example.com/favicon.ico" />
+    <link rel="icon" type="image/png" href="http://example.com/favicon.png" />
     <title>Статья Дом Наркомфина</title>
     <script type="text/javascript">
     $(function() {
@@ -12,7 +14,7 @@
 		    $(this).on('click', function(e) {
 			    e.preventDefault();
 			    var scrollTo = $(this).attr('href');
-			    var whitespace = scrollTo == '#s1' ? 150 : 30;
+			    var whitespace = scrollTo == '#s1' ? 120 : 30;
 			    $('html,body').animate({
 				    scrollTop: $(scrollTo).offset().top - whitespace
 			    }, 1000);
@@ -28,7 +30,7 @@
       <a href="about.html">О проекте</a>
     </div>
     <nav class="sidebar">
-      <p><a href="#s1">Дом Наркомфина</a></p>
+      <p><a href="#s1">Дом наркомфина</a></p>
       <ul>
         <li><a href="#s2">История создания</a></li>
             <ul>

@@ -2,6 +2,7 @@
   width: 900px;
   margin: 0 auto;
   display: block;
+  position: relative;
   background: white;
   border-radius: 3px;
   border: 1px solid #ddd;
@@ -9,13 +10,16 @@
   padding: 30px 20px;
   margin-bottom: 10px;
 }
+.index_item:nth-last-of-type(2) {
+  margin-top: 100px;
+}
 .index_item img {
   width: 100%;
   overflow: hidden;
   height: 250px;
   object-fit: cover;
   /* object-position: left; -> position ou valeurs */
-  object-position: 0 -90px;
+  object-position: 0 -85px;
   margin-bottom: 10px;
   margin-top: -10px;
 }

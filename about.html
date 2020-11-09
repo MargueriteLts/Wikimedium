@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <meta name="viewport" content="width=device-width">
     <meta charset="utf-8">
     <link rel="stylesheet" href="stylesheets/style.css">
-    <title></title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <title>О проекте</title>
     <style media="screen">
       body {
-        width: 1440;
+        /* width: 1440; */
         height: 100%;
         display: block;
         margin: 0 auto;
@@ -15,7 +18,7 @@
       }
       body::before {
         content: '';
-        background: url('images/1440.jpg');
+        /* background: url('images/1440.jpg'); */
         opacity: .1;
         position: absolute;
         top: 0;
@@ -24,60 +27,61 @@
         height: 100%;
         /* z-index: 0; ???*/
       }
-      html {
+      /* html {
         background: #bbb;
         height: 3253px;
         position: relative;
-      }
+      } */
       section {
         display: flex;
         justify-content: space-between;
         /* align-items: top; */
         vertical-align: top;
-        padding-top: 70px;
+        padding-top: 80px;
       }
       section div {
         overflow: hidden;
         width: 50%;
-        padding-left: 60px;
+        padding-left: 40px;
       }
       section h1, section p {
-        width: 520px;
+        width: 510px;
         margin: 0 auto;
       }
       section h1, .bottom_block h1 {
         margin-top: 60px;
-        margin-bottom: 24px;
+        margin-bottom: 34px;
         font-size: 38px;
-        line-height: 45px;
+        line-height: 40px;
       }
       section p, .bottom_block p {
         font-size: 26px;
-        line-height: 38px;
+        line-height: 34px;
       }
       section:nth-of-type(2) h1,
       section:nth-of-type(2) p {
-        margin-top: 38px;
+        /* margin-top: 38px; */
         margin-left: 0;
       }
       section:nth-of-type(3) h1 {
-        margin-top: 50px;
+        margin-top: 24px;
       }
       .bottom_block {
         text-align: center;
-        padding-top: 124px;
+        padding-top: 100px;
+        border-top: 1px solid #bbb;
       }
       .bottom_block p {
-        width: 800px;
+        width: 510px;
         margin: 0 auto;
       }
       .btn {
         text-decoration: none;
         border: 1px solid #bbb;
-        padding: 18px 40px;
+        padding: 15px 40px;
         background: white;
         display: inline-block;
-        border-radius: 6px;
+        border-radius: 4px;
         margin: 90px 5px 0;
       }
       .btn-black {
@@ -123,7 +127,6 @@
         <img src="images/about3.png" alt="">
       </div>
     </section>
-
 
   <div class="bottom_block">
     <h1>Возможность самостоятельного <br>и курируемого обучения</h1>

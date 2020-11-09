@@ -11,7 +11,7 @@
   margin-bottom: 10px;
 }
 .index_item:nth-last-of-type(2) {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .index_item img {
   width: 100%;
@@ -19,7 +19,7 @@
   height: 250px;
   object-fit: cover;
   /* object-position: left; -> position ou valeurs */
-  object-position: 0 -85px;
+  object-position: 0 -90px;
   margin-bottom: 10px;
   margin-top: -10px;
 }
@@ -31,7 +31,7 @@
 }
 .index_item p {
   font-family: 'PT Sans Caption', sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 32px;
   color: rgba(0, 0, 0, 0.4);
 }

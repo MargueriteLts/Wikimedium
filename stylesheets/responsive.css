@@ -3,6 +3,9 @@
 		display: none;
 	}
 }
+@media all and (max-width: 1024px) {
+	.menubar { width: calc(100%); }
+}
 @media all and (max-device-width: 1024px) and (orientation: portrait) {
   article > p { width: calc(100% - 40px); }
 }

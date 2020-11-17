@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+
+    div {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      position: relative;
+    }
+
+    #a {
+      left: 300px;
+      top: 100px;
+      animation: moveright 8s ease-out 4s 1;
+      animation-fill-mode: forwards;
+    }
+    #b {
+      animation: square 8s ease-in 2s 1;
+      animation-fill-mode: forwards;
+    }
+    #c {
+      width: 50px;
+      height: 50px;
+      left: 750px;
+      top: -80px;
+      opacity: 0;
+      animation: big 4s ease 11s 1;
+      animation-fill-mode: forwards;
+    }
+    #d {
+      width: 500px;
+      height: 500px;
+      left: 500px;
+      top: -80px;
+      opacity: 0;
+      animation: fall 5s ease 15s 1;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes square {
+      0% {background-color:red; left:0px; top:0px;}
+      25% {background-color:yellow; left:200px; top:0px;}
+      50% {background-color:blue; left:200px; top:200px;}
+      75% {background-color:green; left:0px; top:200px;}
+      100% {background-color:red; left:0px; top:-100px; opacity: 0;}
+    }
+    @keyframes moveright {
+      0% {
+        background-color: yellow;
+        /* transform: translateX(0em); */
+        opacity: 1;
+      }
+      80% {
+        opacity: 1;
+      }
+      100% {
+        background-color: blue;
+        transform: translateX(430px) scale(0.1);
+        opacity: 0;
+      }
+    }
+    @keyframes big {
+    0% {
+      opacity: 1;
+      background-color: blue;}
+    100% {
+      transform: scale(10);
+      background-color: blue;
+      opacity: 1;}
+    }
+    @keyframes fall {
+      0%, 49% {opacity:1; transform: none;}
+      50%, 89% {opacity:1; width: 100px; height:800px;}
+      90%, 100% {opacity:1; width: 800px; height:50px;}
+    }
+
+    </style>
+  </head>
+  <body>
+    <div id="a"></div>
+    <div id="b"></div>
+    <div id="c"></div>
+    <div id="d"></div>
+    <!--<div id="5"></div>
+    <div id="6"></div>
+    <div id="7"></div>
+    <div id="8"></div>
+    <div id="9"></div>
+    <div id="10"></div> -->
+  </body>
+</html>
